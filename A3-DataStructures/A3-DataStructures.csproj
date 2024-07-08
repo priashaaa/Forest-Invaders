@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Remove="System.Linq" />
+    <!-- Remove the built-in collections from ImplicitUsings so our types appear first -->
+    <Using Remove="System.Collections" />
+    <Using Remove="System.Collections.Generic" />
+  </ItemGroup>
+
+</Project>
