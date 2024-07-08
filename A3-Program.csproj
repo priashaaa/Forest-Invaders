@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Remove="System.Linq" />
+    <!-- Remove the built-in collections from ImplicitUsings so our types appear first -->
+    <Using Remove="System.Collections" />
+    <Using Remove="System.Collections.Generic" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Use the latest 0.1.x patch so I can still patch bugs after releasing the assignment lol -->
+    <PackageReference Include="TrentCOIS.Tools.Visualization.Framework" Version="0.1.*" />
+    <ProjectReference Include="..\A3-DataStructures\A3-DataStructures.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Resources\**\*" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>

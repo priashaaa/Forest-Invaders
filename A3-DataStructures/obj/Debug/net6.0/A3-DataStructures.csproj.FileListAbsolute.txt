@@ -1,0 +1,24 @@
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/bin/Debug/net6.0/A3-DataStructures.deps.json
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/bin/Debug/net6.0/A3-DataStructures.dll
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/bin/Debug/net6.0/A3-DataStructures.pdb
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.csproj.AssemblyReference.cache
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.AssemblyInfoInputs.cache
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.AssemblyInfo.cs
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.csproj.CoreCompileInputs.cache
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.dll
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/obj/Debug/net6.0/refint/A3-DataStructures.dll
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.pdb
+/Users/priyashabarua/Assignment3 (Updated)/A3-DataStructures/obj/Debug/net6.0/ref/A3-DataStructures.dll
+/Users/priyashabarua/Assignment3/A3-DataStructures/bin/Debug/net6.0/A3-DataStructures.deps.json
+/Users/priyashabarua/Assignment3/A3-DataStructures/bin/Debug/net6.0/A3-DataStructures.dll
+/Users/priyashabarua/Assignment3/A3-DataStructures/bin/Debug/net6.0/A3-DataStructures.pdb
+/Users/priyashabarua/Assignment3/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.csproj.AssemblyReference.cache
+/Users/priyashabarua/Assignment3/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.GeneratedMSBuildEditorConfig.editorconfig
+/Users/priyashabarua/Assignment3/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.AssemblyInfoInputs.cache
+/Users/priyashabarua/Assignment3/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.AssemblyInfo.cs
+/Users/priyashabarua/Assignment3/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.csproj.CoreCompileInputs.cache
+/Users/priyashabarua/Assignment3/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.dll
+/Users/priyashabarua/Assignment3/A3-DataStructures/obj/Debug/net6.0/refint/A3-DataStructures.dll
+/Users/priyashabarua/Assignment3/A3-DataStructures/obj/Debug/net6.0/A3-DataStructures.pdb
+/Users/priyashabarua/Assignment3/A3-DataStructures/obj/Debug/net6.0/ref/A3-DataStructures.dll

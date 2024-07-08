@@ -1,0 +1,213 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "A3-Program/1.0.0": {
+        "dependencies": {
+          "A3-DataStructures": "1.0.0",
+          "TrentCOIS.Tools.Visualization.Framework": "0.1.3"
+        },
+        "runtime": {
+          "A3-Program.dll": {}
+        }
+      },
+      "Cyotek.Drawing.BitmapFont/2.0.4": {
+        "runtime": {
+          "lib/net5.0/Cyotek.Drawing.BitmapFont.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "2.0.4.0"
+          }
+        }
+      },
+      "FontStashSharp.Base/1.1.9": {
+        "runtime": {
+          "lib/netstandard2.0/FontStashSharp.Base.dll": {
+            "assemblyVersion": "1.1.9.0",
+            "fileVersion": "1.1.9.0"
+          }
+        }
+      },
+      "FontStashSharp.MonoGame/1.3.7": {
+        "dependencies": {
+          "Cyotek.Drawing.BitmapFont": "2.0.4",
+          "FontStashSharp.Base": "1.1.9",
+          "FontStashSharp.Rasterizers.StbTrueTypeSharp": "1.1.9",
+          "StbImageSharp": "2.27.14"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FontStashSharp.MonoGame.dll": {
+            "assemblyVersion": "1.3.7.0",
+            "fileVersion": "1.3.7.0"
+          }
+        }
+      },
+      "FontStashSharp.Rasterizers.StbTrueTypeSharp/1.1.9": {
+        "dependencies": {
+          "FontStashSharp.Base": "1.1.9",
+          "StbTrueTypeSharp": "1.26.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FontStashSharp.Rasterizers.StbTrueTypeSharp.dll": {
+            "assemblyVersion": "1.1.9.0",
+            "fileVersion": "1.1.9.0"
+          }
+        }
+      },
+      "MonoGame.Framework.DesktopGL/3.8.1.303": {
+        "runtime": {
+          "lib/net6.0/MonoGame.Framework.dll": {
+            "assemblyVersion": "3.8.1.303",
+            "fileVersion": "3.8.1.303"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSDL2-2.0.so.0": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libopenal.so.1": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libSDL2.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libopenal.1.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/SDL2.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/soft_oal.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/SDL2.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/soft_oal.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "StbImageSharp/2.27.14": {
+        "runtime": {
+          "lib/netstandard2.0/StbImageSharp.dll": {
+            "assemblyVersion": "2.27.14.0",
+            "fileVersion": "2.27.14.0"
+          }
+        }
+      },
+      "StbTrueTypeSharp/1.26.12": {
+        "runtime": {
+          "lib/netstandard2.0/StbTrueTypeSharp.dll": {
+            "assemblyVersion": "1.26.12.0",
+            "fileVersion": "1.26.12.0"
+          }
+        }
+      },
+      "TrentCOIS.Tools.Visualization.Framework/0.1.3": {
+        "dependencies": {
+          "FontStashSharp.MonoGame": "1.3.7",
+          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+        },
+        "runtime": {
+          "lib/net6.0/TrentCOIS.VizFramework.dll": {
+            "assemblyVersion": "0.1.3.0",
+            "fileVersion": "0.1.3.0"
+          }
+        }
+      },
+      "A3-DataStructures/1.0.0": {
+        "runtime": {
+          "A3-DataStructures.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "A3-Program/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cyotek.Drawing.BitmapFont/2.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iA6WehGVdMUuNbfsQQDq/Bt+mMd/OqHjiMUtKFLIQd/0pyYh4ehT7FEjTxN9/4OXNKQZsp9bAJgltP2nnswUJg==",
+      "path": "cyotek.drawing.bitmapfont/2.0.4",
+      "hashPath": "cyotek.drawing.bitmapfont.2.0.4.nupkg.sha512"
+    },
+    "FontStashSharp.Base/1.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/AjkOcPNijs8vyNgcCj3FfBJbVWmsSH744hqkhLfBt8qspDz/tEoD+U09my5u9eRBX6zX+RLQ/gdCvwy+ZBOtg==",
+      "path": "fontstashsharp.base/1.1.9",
+      "hashPath": "fontstashsharp.base.1.1.9.nupkg.sha512"
+    },
+    "FontStashSharp.MonoGame/1.3.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pb8YCykKPrwReJJL3Yn0u7Ho3vHUMlrQcudz3gOztkAMM5PuQbURBHrDQNroz3Gghiv4AARxKf64aawbLmhygA==",
+      "path": "fontstashsharp.monogame/1.3.7",
+      "hashPath": "fontstashsharp.monogame.1.3.7.nupkg.sha512"
+    },
+    "FontStashSharp.Rasterizers.StbTrueTypeSharp/1.1.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yi5iuTERem46uyHC5p+jRi3Jh8dKWzgNWLqcvHciGlyVHD1cWFdERgnxshZU4xWB2hRGnogxaCudCirbMpg4eQ==",
+      "path": "fontstashsharp.rasterizers.stbtruetypesharp/1.1.9",
+      "hashPath": "fontstashsharp.rasterizers.stbtruetypesharp.1.1.9.nupkg.sha512"
+    },
+    "MonoGame.Framework.DesktopGL/3.8.1.303": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
+      "path": "monogame.framework.desktopgl/3.8.1.303",
+      "hashPath": "monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    },
+    "StbImageSharp/2.27.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4C38oL8igoocaywMr4+WDYoXwnVma3gm26heCAVgzWqO91MMPuhgqTlTT7vVpGDMo4/c0h2/zqQuAS6QxJKgmA==",
+      "path": "stbimagesharp/2.27.14",
+      "hashPath": "stbimagesharp.2.27.14.nupkg.sha512"
+    },
+    "StbTrueTypeSharp/1.26.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hCc6/OsfcPa5VsLECcEU2m78WOshBrKwK42nAodSm9Z5wH68f7n66SoiRLCdGCkDaqbWz2TlX4zYHIjogj1HJA==",
+      "path": "stbtruetypesharp/1.26.12",
+      "hashPath": "stbtruetypesharp.1.26.12.nupkg.sha512"
+    },
+    "TrentCOIS.Tools.Visualization.Framework/0.1.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AO3XKtCNIY0SxWNbzif7QnmwPamBpnSHcKi1fyYrHzKI+IFJsLkKDnaCb53JwHIdE9nivAy6lk8KSgTk/m369A==",
+      "path": "trentcois.tools.visualization.framework/0.1.3",
+      "hashPath": "trentcois.tools.visualization.framework.0.1.3.nupkg.sha512"
+    },
+    "A3-DataStructures/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

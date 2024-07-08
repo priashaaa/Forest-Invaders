@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpriteList FilePath="./BountifulBits/Full.png" W="10" H="10">
+    <Sprite X="0" Y="0" Name="Background" />
+
+    <!-- [TODO]: Vehicles, paths, all the stuff at the bottom -->
+
+    <!-- This does not include all the sprites. -->
+    <SpriteGroup Name="Buildings">
+        <SpriteGroup Name="Doors">
+            <SpriteGroup Name="Red">
+                <Sprite X="70" Y="10" Name="Door1" />
+                <Sprite X="80" Y="10" Name="Door2" />
+                <Sprite X="90" Y="10" Name="Door3" />
+                <Sprite X="100" Y="10" Name="Door4" />
+                <Sprite X="110" Y="10" Name="Door5" />
+                <Sprite X="120" Y="10" Name="Door6" />
+                <Sprite X="130" Y="10" Name="DoorOpen" />
+            </SpriteGroup>
+            <SpriteGroup Name="Gray">
+                <Sprite X="70" Y="20" Name="Door1" />
+                <Sprite X="80" Y="20" Name="Door2" />
+                <Sprite X="90" Y="20" Name="Door3" />
+                <Sprite X="100" Y="20" Name="Door4" />
+                <Sprite X="110" Y="20" Name="Door5" />
+                <Sprite X="120" Y="20" Name="Door6" />
+                <Sprite X="130" Y="20" Name="DoorOpen" />
+            </SpriteGroup>
+            <SpriteGroup Name="Brown">
+                <Sprite X="70" Y="30" Name="Door1" />
+                <Sprite X="80" Y="30" Name="Door2" />
+                <Sprite X="90" Y="30" Name="Door3" />
+                <Sprite X="100" Y="30" Name="Door4" />
+                <Sprite X="110" Y="30" Name="Door5" />
+                <Sprite X="120" Y="30" Name="Door6" />
+                <Sprite X="130" Y="30" Name="DoorOpen" />
+            </SpriteGroup>
+            <SpriteGroup Name="Beige">
+                <Sprite X="70" Y="40" Name="Door1" />
+                <Sprite X="80" Y="40" Name="Door2" />
+                <Sprite X="90" Y="40" Name="Door3" />
+                <Sprite X="100" Y="40" Name="Door4" />
+                <Sprite X="110" Y="40" Name="Door5" />
+                <Sprite X="120" Y="40" Name="Door6" />
+                <Sprite X="130" Y="40" Name="DoorOpen" />
+            </SpriteGroup>
+        </SpriteGroup>
+
+        <SpriteGroup Name="Walls">
+            <SpriteGroup Name="Red">
+                <Sprite X="130" Y="50" Name="Wood" />
+                <Sprite X="140" Y="50" Name="Wood.Window" />
+                <Sprite X="130" Y="10" Name="Wood.Boarded" />
+                <Sprite X="100" Y="90" Name="Bricks" />
+                <Sprite X="90" Y="90" Name="Bricks.Window" />
+                <Sprite X="90" Y="90" Name="Bricks.OpenWindow" />
+                <Sprite X="110" Y="90" Name="LatticeBricks" />
+                <Sprite X="120" Y="90" Name="LatticeBricks.Half" />
+                <Sprite X="130" Y="90" Name="LatticeBricks.Top" />
+                <Sprite X="70" Y="90" Name="Bricks.Slant.Left" />
+                <Sprite X="140" Y="90" Name="Bricks.Slant.Right" />
+            </SpriteGroup>
+            <SpriteGroup Name="Gray">
+                <Sprite X="130" Y="60" Name="Wood" />
+                <Sprite X="140" Y="60" Name="Wood.Window" />
+                <Sprite X="130" Y="20" Name="Wood.Boarded" />
+                <Sprite X="100" Y="100" Name="Bricks" />
+                <Sprite X="90" Y="100" Name="Bricks.Window" />
+                <Sprite X="90" Y="100" Name="Bricks.OpenWindow" />
+                <Sprite X="110" Y="100" Name="LatticeBricks" />
+                <Sprite X="120" Y="100" Name="LatticeBricks.Half" />
+                <Sprite X="130" Y="100" Name="LatticeBricks.Top" />
+                <Sprite X="70" Y="100" Name="Bricks.Slant.Left" />
+                <Sprite X="140" Y="100" Name="Bricks.Slant.Right" />
+            </SpriteGroup>
+            <SpriteGroup Name="Brown">
+                <Sprite X="130" Y="70" Name="Wood" />
+                <Sprite X="140" Y="70" Name="Wood.Window" />
+                <Sprite X="130" Y="30" Name="Wood.Boarded" />
+                <Sprite X="120" Y="110" Name="LatticeBricks.Half" />
+                <Sprite X="130" Y="110" Name="LatticeBricks.Top" />
+                <Sprite X="70" Y="110" Name="Bricks.Slant.Left" />
+                <Sprite X="140" Y="110" Name="Bricks.Slant.Right" />
+                <Sprite X="100" Y="110" Name="Bricks" />
+                <Sprite X="90" Y="110" Name="Bricks.Window" />
+                <Sprite X="90" Y="110" Name="Bricks.OpenWindow" />
+                <Sprite X="110" Y="110" Name="LatticeBricks" />
+            </SpriteGroup>
+            <SpriteGroup Name="Beige">
+                <Sprite X="130" Y="80" Name="Wood" />
+                <Sprite X="140" Y="80" Name="Wood.Window" />
+                <Sprite X="130" Y="40" Name="Wood.Boarded" />
+                <Sprite X="100" Y="120" Name="Bricks" />
+                <Sprite X="90" Y="120" Name="Bricks.Window" />
+                <Sprite X="90" Y="120" Name="Bricks.OpenWindow" />
+                <Sprite X="110" Y="120" Name="LatticeBricks" />
+                <Sprite X="120" Y="120" Name="LatticeBricks.Half" />
+                <Sprite X="130" Y="120" Name="LatticeBricks.Top" />
+                <Sprite X="70" Y="120" Name="Bricks.Slant.Left" />
+                <Sprite X="140" Y="120" Name="Bricks.Slant.Right" />
+            </SpriteGroup>
+        </SpriteGroup>
+
+        <SpriteGroup Name="Floors">
+            <SpriteGroup Name="Brown">
+                <Sprite X="130" Y="300" Name="Checkerboard" />
+                <Sprite X="130" Y="310" Name="WoodPanels" />
+                <Sprite X="130" Y="320" Name="Diagonal" />
+                <Sprite X="150" Y="300" Name="YoshiCookie" />
+                <Sprite X="150" Y="310" Name="SquarePanel" />
+                <Sprite X="150" Y="320" Name="Horizontal" />
+            </SpriteGroup>
+            <SpriteGroup Name="Gray">
+                <Sprite X="140" Y="300" Name="Checkerboard" />
+                <Sprite X="140" Y="310" Name="WoodPanels" />
+                <Sprite X="140" Y="320" Name="Diagonal" />
+                <Sprite X="160" Y="300" Name="YoshiCookie" />
+                <Sprite X="160" Y="310" Name="SquarePanel" />
+                <Sprite X="160" Y="320" Name="Horizontal" />
+            </SpriteGroup>
+        </SpriteGroup>
+
+        <SpriteGroup Name="CastleWalls">
+            <SpriteGroup Name="IronBars">
+                <Sprite X="220" Y="10" Name="Full.L" />
+                <Sprite X="230" Y="10" Name="Full" />
+                <Sprite X="240" Y="10" Name="Full.R" />
+                <Sprite X="220" Y="20" Name="Half.L" />
+                <Sprite X="230" Y="20" Name="Gate.Large" />
+                <Sprite X="240" Y="20" Name="Half.R" />
+                <Sprite X="230" Y="30" Name="Gate" />
+            </SpriteGroup>
+
+            <SpriteGroup Name="Bricks.Large">
+                <Sprite X="220" Y="50" Name="Full.L" />
+                <Sprite X="230" Y="50" Name="Full" />
+                <Sprite X="240" Y="50" Name="Full.R" />
+                <Sprite X="220" Y="60" Name="Half.L" />
+                <Sprite X="230" Y="60" Name="Gate.Large" />
+                <Sprite X="240" Y="60" Name="Half.R" />
+                <Sprite X="230" Y="70" Name="Gate" />
+            </SpriteGroup>
+
+            <SpriteGroup Name="Bricks">
+                <Sprite X="220" Y="90" Name="Full.L" />
+                <Sprite X="230" Y="90" Name="Full" />
+                <Sprite X="240" Y="90" Name="Full.R" />
+                <Sprite X="220" Y="100" Name="Half.L" />
+                <Sprite X="230" Y="100" Name="Gate.Large" />
+                <Sprite X="240" Y="100" Name="Half.R" />
+                <Sprite X="230" Y="110" Name="Gate" />
+            </SpriteGroup>
+
+            <SpriteGroup Name="Bricks.Small">
+                <Sprite X="220" Y="130" Name="Full.L" />
+                <Sprite X="230" Y="130" Name="Full" />
+                <Sprite X="240" Y="130" Name="Full.R" />
+                <Sprite X="220" Y="140" Name="Half.L" />
+                <Sprite X="230" Y="140" Name="Gate.Large" />
+                <Sprite X="240" Y="140" Name="Half.R" />
+                <Sprite X="230" Y="150" Name="Gate" />
+            </SpriteGroup>
+        </SpriteGroup>
+    </SpriteGroup>
+
+    <SpriteGroup Name="Debris">
+        <Sprite X="10" Y="10"  Name="Rubble.Brown" />
+        <Sprite X="10" Y="20"  Name="Rubble.Brown.Alt" />
+        <Sprite X="10" Y="30"  Name="Dust.Brown" />
+        <Sprite X="10" Y="40"  Name="Pebbles.Brown" />
+        <Sprite X="10" Y="50"  Name="Pebbles.Brown.Alt" />
+        <Sprite X="10" Y="60"  Name="Rubble.Beige" />
+        <Sprite X="10" Y="70"  Name="Rubble.Beige.Alt" />
+        <Sprite X="10" Y="80"  Name="Dust.Beige" />
+        <Sprite X="10" Y="90"  Name="Pebbles.Beige" />
+        <Sprite X="10" Y="100" Name="Pebbles.Beige.Alt" />
+
+        <Sprite X="20" Y="10" Name="Bones" />
+        <Sprite X="20" Y="20" Name="Skull" />
+        <Sprite X="20" Y="30" Name="SkullBones" />
+        <Sprite X="20" Y="40" Name="Bones.Broken" />
+        <Sprite X="20" Y="50" Name="Bones.Dust" />
+
+        <Sprite X="30" Y="10" Name="Bones.Gray" />
+        <Sprite X="30" Y="20" Name="Skull.Gray" />
+        <Sprite X="30" Y="30" Name="SkullBones.Gray" />
+        <Sprite X="30" Y="40" Name="Bones.Broken.Gray" />
+        <Sprite X="30" Y="50" Name="Bones.Dust.Gray" />
+
+        <Sprite X="20" y="60" Name="Cobwebs" />
+        <Sprite X="20" y="70" Name="Spiderweb" />
+        <Sprite X="30" y="60" Name="Cobwebs.Gray" />
+        <Sprite X="30" y="70" Name="Spiderweb.Gray" />
+    </SpriteGroup>
+
+    <SpriteGroup Name="Decor">
+        <!-- [TODO]: Furniture/bookshelves -->
+
+        <SpriteGroup Name="Bridges">
+            <Sprite X="160" Y="10" Name="Thin.Gray" />
+            <Sprite X="160" Y="20" Name="Wide.Gray" />
+            <Sprite X="160" Y="30" Name="Thin.Brown" />
+            <Sprite X="160" Y="40" Name="Wide.Brown" />
+        </SpriteGroup>
+
+        <SpriteGroup Name="Signs">
+            <Sprite X="170" Y="10" Name="NoticeBoard.Gray" />
+            <Sprite X="170" Y="20" Name="Plain.Gray" />
+            <Sprite X="170" Y="30" Name="NoticeBoard.Brown" />
+            <Sprite X="170" Y="40" Name="Plain.Brown" />
+
+            <Sprite X="200" Y="50" Name="MarkerRound.Gray" />
+            <Sprite X="200" Y="60" Name="MarkerArrow.Gray" />
+            <Sprite X="200" Y="70" Name="MarkerRound.Brown" />
+            <Sprite X="200" Y="80" Name="MarkerArrow.Brown" />
+        </SpriteGroup>
+
+        <SpriteGroup Name="Chests">
+            <Sprite X="180" Y="10" Name="Closed.Gray" />
+            <Sprite X="180" Y="20" Name="Open.Gray" />
+            <Sprite X="180" Y="30" Name="Closed.Brown" />
+            <Sprite X="180" Y="40" Name="Open.Brown" />
+        </SpriteGroup>
+
+        <SpriteGroup Name="Wells">
+            <Sprite X="190" Y="10" Name="Full" />
+            <Sprite X="190" Y="20" Name="Empty" />
+        </SpriteGroup>
+        <SpriteGroup Name="Boxes">
+            <Sprite X="190" Y="30" Name="Full" />
+            <Sprite X="190" Y="40" Name="Empty" />
+        </SpriteGroup>
+
+        <SpriteGroup Name="Fences">
+            <Sprite X="200" Y="10" Name="Skinny.Gray" />
+            <Sprite X="200" Y="20" Name="Thick.Gray" />
+            <Sprite X="200" Y="30" Name="Skinny.Brown" />
+            <Sprite X="200" Y="40" Name="Thick.Brown" />
+            <!-- No idea why these are down with the paths -->
+            <Sprite X="130" Y="350" Name="Skinny.LightGray" />
+            <Sprite X="140" Y="350" Name="Thick.LightGray" />
+            <Sprite X="150" Y="350" Name="Skinny.LightBrown" />
+            <Sprite X="160" Y="350" Name="Thick.LightBrown" />
+        </SpriteGroup>
+
+        <SpriteGroup Name="Graves">
+            <Sprite X="160" Y="50" Name="Tombstone.Cross.Gray" />
+            <Sprite X="170" Y="50" Name="Tombstone.Words.Gray" />
+            <Sprite X="180" Y="50" Name="Cross.Gray" />
+            <Sprite X="160" Y="70" Name="Tombstone.Cross.Brown" />
+            <Sprite X="170" Y="70" Name="Tombstone.Words.Brown" />
+            <Sprite X="180" Y="70" Name="Cross.Brown" />
+
+            <Sprite X="160" Y="60" Name="Tombstone.Cross.OnBricks.Gray" />
+            <Sprite X="170" Y="60" Name="Tombstone.Words.OnBricks.Gray" />
+            <Sprite X="180" Y="60" Name="Cross.OnBricks.Gray" />
+            <Sprite X="160" Y="80" Name="Tombstone.Cross.OnBricks.Brown" />
+            <Sprite X="170" Y="80" Name="Tombstone.Words.OnBricks.Brown" />
+            <Sprite X="180" Y="80" Name="Cross.OnBricks.Brown" />
+        </SpriteGroup>
+
+        <SpriteGroup Name="Pots">
+            <Sprite X="180" Y="90"  Name="Legs.Gray" />
+            <Sprite X="180" Y="100" Name="Simple.Gray" />
+            <Sprite X="180" Y="110" Name="Legs.Brown" />
+            <Sprite X="180" Y="120" Name="Simple.Brown" />
+        </SpriteGroup>
+
+        <SpriteGroup Name="Barrels">
+            <Sprite X="160" Y="90"  Name="Fat.Gray" />
+            <Sprite X="160" Y="100" Name="Skinny.Gray" />
+            <Sprite X="170" Y="90"  Name="Fat.Plain.Gray" />
+            <Sprite X="170" Y="100" Name="Skinny.Plain.Gray" />
+
+            <Sprite X="160" Y="110" Name="Fat.Brown" />
+            <Sprite X="160" Y="120" Name="Skinny.Brown" />
+            <Sprite X="170" Y="110" Name="Fat.Plain.Brown" />
+            <Sprite X="170" Y="120" Name="Skinny.Plain.Brown" />
+        </SpriteGroup>
+
+        <SpriteGroup Name="Stairs">
+            <Sprite X="200" Y="90"  Name="Up.Gray" />
+            <Sprite X="190" Y="90"  Name="Down.Gray" />
+            <Sprite X="200" Y="110" Name="Up.Brown" />
+            <Sprite X="190" Y="110" Name="Down.Brown" />
+        </SpriteGroup>
+    </SpriteGroup>
+
+    <SpriteGroup Name="Trees">
+        <!-- I have no idea if these names are accurate, just needed names for them :P -->
+        <SpriteGroup Name="Green">
+            <Sprite X="260" Y="10" Name="Pine.Pair" />
+            <Sprite X="270" Y="10" Name="Pine.Pair.Seeds" />
+            <Sprite X="280" Y="10" Name="Pine" />
+            <Sprite X="290" Y="10" Name="Pine.Seeds" />
+            <Sprite X="300" Y="10" Name="Spruce" />
+            <Sprite X="310" Y="10" Name="Spruce.Seeds" />
+            <Sprite X="290" Y="130" Name="Cedar" />
+            <Sprite X="300" Y="130" Name="Cedar.Seeds" />
+            <Sprite X="310" Y="130" Name="Cedar.Pair" />
+            <Sprite X="310" Y="160" Name="Cedar.Pair.Seeds" />
+        </SpriteGroup>
+        <SpriteGroup Name="Brown">
+            <Sprite X="260" Y="20" Name="Pine.Pair" />
+            <Sprite X="270" Y="20" Name="Pine.Pair.Seeds" />
+            <Sprite X="280" Y="20" Name="Pine" />
+            <Sprite X="290" Y="20" Name="Pine.Seeds" />
+            <Sprite X="300" Y="20" Name="Spruce" />
+            <Sprite X="310" Y="20" Name="Spruce.Seeds" />
+            <Sprite X="290" Y="140" Name="Cedar" />
+            <Sprite X="300" Y="140" Name="Cedar.Seeds" />
+            <Sprite X="310" Y="140" Name="Cedar.Pair" />
+            <Sprite X="310" Y="170" Name="Cedar.Pair.Seeds" />
+        </SpriteGroup>
+        <SpriteGroup Name="Beige">
+            <Sprite X="260" Y="30" Name="Pine.Pair" />
+            <Sprite X="270" Y="30" Name="Pine.Pair.Seeds" />
+            <Sprite X="280" Y="30" Name="Pine" />
+            <Sprite X="290" Y="30" Name="Pine.Seeds" />
+            <Sprite X="300" Y="30" Name="Spruce" />
+            <Sprite X="310" Y="30" Name="Spruce.Seeds" />
+            <Sprite X="290" Y="150" Name="Cedar" />
+            <Sprite X="300" Y="150" Name="Cedar.Seeds" />
+            <Sprite X="310" Y="150" Name="Cedar.Pair" />
+            <Sprite X="310" Y="180" Name="Cedar.Pair.Seeds" />
+        </SpriteGroup>
+    </SpriteGroup>
+
+    <SpriteGroup Name="Grass">
+        <SpriteGroup Name="Green">
+            <Sprite X="290" Y="40" Name="Plain.Stage1" />
+            <Sprite X="300" Y="40" Name="Plain.Stage2" />
+            <Sprite X="310" Y="40" Name="Plain.Stage3" />
+
+            <Sprite X="260" Y="70" Name="Weed.Single1" />
+            <Sprite X="270" Y="70" Name="Weed.Single2" />
+            <Sprite X="280" Y="70" Name="Weeds.Stage1" />
+            <Sprite X="290" Y="70" Name="Weeds.Stage1.Alt" />
+            <Sprite X="300" Y="70" Name="Weeds.Stage2" />
+            <Sprite X="310" Y="70" Name="Weeds.Stage2.Alt" />
+
+            <Sprite X="260" Y="100" Name="Plain2.Stage2" />
+            <Sprite X="270" Y="100" Name="Plain2.Stage6" />
+            <Sprite X="280" Y="100" Name="Plain2.Stage5" />
+            <Sprite X="290" Y="100" Name="Plain2.Stage4" />
+            <Sprite X="300" Y="100" Name="Plain2.Stage1" />
+            <Sprite X="310" Y="100" Name="Plain2.Stage3" />
+        </SpriteGroup>
+        <SpriteGroup Name="Brown">
+            <Sprite X="290" Y="50" Name="Plain.Stage1" />
+            <Sprite X="300" Y="50" Name="Plain.Stage2" />
+            <Sprite X="310" Y="50" Name="Plain.Stage3" />
+
+            <Sprite X="260" Y="80" Name="Weed.Single1" />
+            <Sprite X="270" Y="80" Name="Weed.Single2" />
+            <Sprite X="280" Y="80" Name="Weeds.Stage1" />
+            <Sprite X="290" Y="80" Name="Weeds.Stage1.Alt" />
+            <Sprite X="300" Y="80" Name="Weeds.Stage2" />
+            <Sprite X="310" Y="80" Name="Weeds.Stage2.Alt" />
+
+            <Sprite X="260" Y="110" Name="Plain2.Stage2" />
+            <Sprite X="270" Y="110" Name="Plain2.Stage6" />
+            <Sprite X="280" Y="110" Name="Plain2.Stage5" />
+            <Sprite X="290" Y="110" Name="Plain2.Stage4" />
+            <Sprite X="300" Y="110" Name="Plain2.Stage1" />
+            <Sprite X="310" Y="110" Name="Plain2.Stage3" />
+        </SpriteGroup>
+        <SpriteGroup Name="Beige">
+            <Sprite X="290" Y="60" Name="Plain.Stage1" />
+            <Sprite X="300" Y="60" Name="Plain.Stage2" />
+            <Sprite X="310" Y="60" Name="Plain.Stage3" />
+
+            <Sprite X="260" Y="90" Name="Weed.Single1" />
+            <Sprite X="270" Y="90" Name="Weed.Single2" />
+            <Sprite X="280" Y="90" Name="Weeds.Stage1" />
+            <Sprite X="290" Y="90" Name="Weeds.Stage1.Alt" />
+            <Sprite X="300" Y="90" Name="Weeds.Stage2" />
+            <Sprite X="310" Y="90" Name="Weeds.Stage2.Alt" />
+
+            <Sprite X="260" Y="120" Name="Plain2.Stage2" />
+            <Sprite X="270" Y="120" Name="Plain2.Stage6" />
+            <Sprite X="280" Y="120" Name="Plain2.Stage5" />
+            <Sprite X="290" Y="120" Name="Plain2.Stage4" />
+            <Sprite X="300" Y="120" Name="Plain2.Stage1" />
+            <Sprite X="310" Y="120" Name="Plain2.Stage3" />
+        </SpriteGroup>
+    </SpriteGroup>
+
+    <SpriteGroup Name="Shrubs">
+        <SpriteGroup Name="Green">
+            <Sprite X="260" Y="130" Name="Sprout.1" />
+            <Sprite X="270" Y="130" Name="Sprout.2" />
+            <Sprite X="280" Y="130" Name="Grown" />
+            <Sprite X="260" Y="40"  Name="Sprout.Pair.1" />
+            <Sprite X="270" Y="40"  Name="Sprout.Pair.2" />
+            <Sprite X="280" Y="40"  Name="Grown.Pair" />
+        </SpriteGroup>
+        <SpriteGroup Name="Brown">
+            <Sprite X="260" Y="140" Name="Sprout.1" />
+            <Sprite X="270" Y="140" Name="Sprout.2" />
+            <Sprite X="280" Y="140" Name="Grown" />
+            <Sprite X="260" Y="50"  Name="Sprout.Pair.1" />
+            <Sprite X="270" Y="50"  Name="Sprout.Pair.2" />
+            <Sprite X="280" Y="50"  Name="Grown.Pair" />
+        </SpriteGroup>
+        <SpriteGroup Name="Beige">
+            <Sprite X="260" Y="140" Name="Sprout.1" />
+            <Sprite X="270" Y="140" Name="Sprout.2" />
+            <Sprite X="280" Y="140" Name="Grown" />
+            <Sprite X="260" Y="50"  Name="Sprout.Pair.1" />
+            <Sprite X="270" Y="50"  Name="Sprout.Pair.2" />
+            <Sprite X="280" Y="50"  Name="Grown.Pair" />
+        </SpriteGroup>
+    </SpriteGroup>
+</SpriteList>
