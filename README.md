@@ -15,3 +15,4 @@ Gameplay Mechanics:
         Wizards: Wizards cast spells at a distance, dealing damage and occasionally applying status effects. They have a cooldown period after each spell, requiring strategic use of their abilities.
         Goblins: Goblins charge at their enemies with ferocious melee attacks. They can attack multiple times in quick succession, but must close the distance to be effective.
 
+![priashabarua0778496-ezgif com-video-to-gif-converter](https://github.com/priashaaa/Forest-Invaders/assets/101392567/61874c80-1f70-4ee5-af8d-ef87f57acbfa)
